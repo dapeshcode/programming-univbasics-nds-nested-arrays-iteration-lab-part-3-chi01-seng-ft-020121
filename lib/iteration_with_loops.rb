@@ -20,4 +20,10 @@ def join_nested_strings(src)
 puts combine_strings   
 end
 
-test = 
+test = [
+  ["The", 4, "quick"],
+  [-1, "brown", "fox", 30],
+  ["studied", 101, 233, "Ruby"]
+]
+
+join_nested_strings(test)
